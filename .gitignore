@@ -1,0 +1,10 @@
+build/*
+dist/*
+lib/*
+library/*
+node_modules/*
+scripts/*
+index.html
+main.js
+test.js
+yarn.lock
