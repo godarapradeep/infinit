@@ -55,9 +55,6 @@
       "icon": false,
       "sign": true
     },
-    "zip": {
-      "sign": true
-    },
     "win": {
       "target": "NSIS"
     },
