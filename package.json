@@ -1,6 +1,6 @@
 {
   "name": "infinit",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "A cross-platform application for Salesforce developers, analysts, and release managers operate and collaborate on their next feature, project, or release, all that from within a single platform.",
   "main": "main.js",
   "scripts": {
@@ -45,7 +45,7 @@
         "en"
       ],
       "target": [
-        "default"
+        "dmg"
       ]
     },
     "publish": [
@@ -53,7 +53,7 @@
     ],
     "dmg": {
       "icon": false,
-      "sign": true
+      "sign": false
     },
     "win": {
       "target": "NSIS"
