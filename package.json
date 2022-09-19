@@ -1,6 +1,6 @@
 {
   "name": "infinit",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "A cross-platform application for Salesforce developers, analysts, and release managers operate and collaborate on their next feature, project, or release, all that from within a single platform.",
   "main": "main.js",
   "scripts": {
@@ -20,10 +20,6 @@
     "Comparison",
     "Retrieval"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/godarapradeep/infinit.git"
-  },
   "author": "Pradeep Godara",
   "license": "CC-BY-4.0",
   "devDependencies": {
@@ -33,30 +29,13 @@
   },
   "build": {
     "appId": "com.daas.infinit",
-    "productName": "infinit",
+    "afterSign": "./build/notarize.js",
     "copyright": "Copyright © 2022 infinit",
     "mac": {
-      "category": "public.app-category.developer-tools",
-      "hardenedRuntime": true,
-      "gatekeeperAssess": false,
-      "entitlements": "build/entitlements.mac.plist",
-      "entitlementsInherit": "build/entitlements.mac.plist",
-      "electronLanguages": [
-        "en"
-      ],
-      "target": [
-        "default"
-      ]
-    },
-    "publish": [
-      "github"
-    ],
-    "dmg": {
-      "icon": false,
-      "sign": false
+      "category": "public.app-category.developer-tools"
     },
     "win": {
-      "target": "NSIS"
+      "target": "nsis"
     },
     "extraFiles": [
       "library/infinit-electron_lib",
@@ -66,8 +45,7 @@
         "from": "library/jre_${os}",
         "to": "library/jre"
       }
-    ],
-    "afterSign": "scripts/notarize.js"
+    ]
   },
   "dependencies": {
     "clean": "^4.0.2",
