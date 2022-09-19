@@ -1,6 +1,6 @@
 {
   "name": "infinit",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "A cross-platform application for Salesforce developers, analysts, and release managers operate and collaborate on their next feature, project, or release, all that from within a single platform.",
   "main": "main.js",
   "scripts": {
@@ -34,7 +34,7 @@
   "build": {
     "appId": "com.daas.infinit",
     "productName": "infinit",
-    "copyright": "Copyright © year infinit",
+    "copyright": "Copyright © 2022 infinit",
     "mac": {
       "category": "public.app-category.developer-tools",
       "hardenedRuntime": true,
@@ -80,7 +80,8 @@
     "jsforce": "^1.11.0",
     "object-hash": "^3.0.0",
     "parse-diff": "^0.9.0",
-    "shelljs": "^0.8.5"
+    "shelljs": "^0.8.5",
+    "update-electron-app": "^2.0.1"
   },
   "bugs": {
     "url": "https://github.com/godarapradeep/infinit/issues"
