@@ -1,6 +1,6 @@
 {
   "name": "infinit",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "A cross-platform application for Salesforce developers, analysts, and release managers operate and collaborate on their next feature, project, or release, all that from within a single platform.",
   "main": "main.js",
   "scripts": {
@@ -58,8 +58,7 @@
     "jsforce": "^1.11.0",
     "object-hash": "^3.0.0",
     "parse-diff": "^0.9.0",
-    "shelljs": "^0.8.5",
-    "update-electron-app": "^2.0.1"
+    "shelljs": "^0.8.5"
   },
   "bugs": {
     "url": "https://github.com/godarapradeep/infinit/issues"
