@@ -1,6 +1,6 @@
 {
   "name": "infinit",
-  "version": "1.0.32",
+  "version": "1.0.33",
   "description": "A cross-platform application for Salesforce developers, analysts, and release managers operate and collaborate on their next feature, project, or release, all that from within a single platform.",
   "main": "main.js",
   "scripts": {
@@ -42,8 +42,8 @@
       "library/infinit-electron-obs.jar",
       "library/infinit.db",
       {
-        "from": "library/jre.bundle_${os}",
-        "to": "library/jre.bundle"
+        "from": "library/jre_${os}.zip",
+        "to": "library/jre.zip"
       }
     ]
   },
@@ -59,7 +59,8 @@
     "jsforce": "^1.11.0",
     "object-hash": "^3.0.0",
     "parse-diff": "^0.9.0",
-    "shelljs": "^0.8.5"
+    "shelljs": "^0.8.5",
+    "yauzl": "^2.10.0"
   },
   "bugs": {
     "url": "https://github.com/godarapradeep/infinit/issues"
