@@ -1,6 +1,6 @@
 {
   "name": "infinit",
-  "version": "1.0.22",
+  "version": "1.0.32",
   "description": "A cross-platform application for Salesforce developers, analysts, and release managers operate and collaborate on their next feature, project, or release, all that from within a single platform.",
   "main": "main.js",
   "scripts": {
@@ -42,8 +42,8 @@
       "library/infinit-electron-obs.jar",
       "library/infinit.db",
       {
-        "from": "library/jre_${os}",
-        "to": "library/jre"
+        "from": "library/jre.bundle_${os}",
+        "to": "library/jre.bundle"
       }
     ]
   },
