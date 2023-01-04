@@ -1,7 +1,7 @@
 # infinit- track. build. compare.
 
-A cross platform application that lets Salesforce developers, analysts and release managers to operate and collaborate on their next feature, project or release, all that from within a single application.
+infinit is a cross-platform tool designed to help Salesforce developers, analysts, and release managers work on and collaborate on their projects within a single platform. 
 
-Infinit allows you to package metadata, permission and data changes in an easy to use and simple to setup constructs. With metadata, permission and data changes packaged, the application lets you commit, merge, build and release changes in controlled manner. The data that originates is saved locally and natively in Salesforce.
+It enables users to package metadata, permissions, and data changes and commit, merge, build, and release those changes in a controlled manner. infinit is built using Electron and aims to simplify change management in Salesforce by streamlining the management of multiple features, projects, and environments and helping users focus on important tasks. 
 
-Under the hood Infinit is built with Electron, the very same platform that powers some well renowned names- Visual Studio Code, Slack, Postman, WhatsApp and many more…
+It offers flexibility by allowing teams to choose the tools, processes, and strategies that work best for them.
