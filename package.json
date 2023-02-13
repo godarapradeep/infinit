@@ -1,6 +1,6 @@
 {
   "name": "infinit",
-  "version": "1.0.41",
+  "version": "1.0.42",
   "description": "A cross-platform application for Salesforce developers, analysts, and release managers operate and collaborate on their next feature, project, or release, all that from within a single platform.",
   "main": "main.js",
   "scripts": {
@@ -23,9 +23,9 @@
   "author": "Pradeep Godara",
   "license": "CC-BY-4.0",
   "devDependencies": {
-    "electron": "^22.0.3",
-    "electron-builder": "^23.6.0",
-    "electron-notarize": "^1.2.2"
+    "@electron/notarize": "^1.2.3",
+    "electron": "^23.0.0",
+    "electron-builder": "^23.6.0"
   },
   "build": {
     "appId": "com.daas.infinit",
@@ -55,8 +55,8 @@
     "electron-log": "^4.4.8",
     "electron-store": "^8.1.0",
     "electron-updater": "5.3.0",
-    "fast-xml-parser": "^4.0.13",
-    "jsforce": "^1.11.0",
+    "fast-xml-parser": "^4.1.1",
+    "faye": "^1.4.0",
     "object-hash": "^3.0.0",
     "parse-diff": "^0.11.0",
     "piscina": "^3.2.0",
