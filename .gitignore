@@ -9,3 +9,4 @@ main.js
 test.js
 yarn.lock
 package-lock.json
+codesign.sh
