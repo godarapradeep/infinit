@@ -1,6 +1,6 @@
 {
   "name": "infinit",
-  "version": "1.0.42",
+  "version": "1.0.44",
   "description": "A cross-platform application for Salesforce developers, analysts, and release managers operate and collaborate on their next feature, project, or release, all that from within a single platform.",
   "main": "main.js",
   "scripts": {
@@ -30,19 +30,35 @@
   "build": {
     "appId": "com.daas.infinit",
     "afterSign": "./build/notarize.js",
-    "copyright": "Copyright © 2022 infinit",
+    "copyright": "Copyright © 2023 infinit",
     "mac": {
-      "category": "public.app-category.developer-tools"
+      "category": "public.app-category.developer-tools",
+      "target": [
+        {
+          "target": "default",
+          "arch": [
+            "x64",
+            "arm64"
+          ]
+        }
+      ]
     },
     "win": {
-      "target": "nsis"
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
     },
     "extraFiles": [
       "library/infinit-electron_lib",
       "library/infinit-electron-obs.jar",
       "library/infinit.db",
       {
-        "from": "library/jre_${os}.zip",
+        "from": "library/jre_${os}_${arch}.zip",
         "to": "library/jre.zip"
       }
     ]
