@@ -1,6 +1,6 @@
 {
   "name": "infinit",
-  "version": "1.0.46",
+  "version": "1.0.47",
   "description": "A cross-platform application for Salesforce developers, analysts, and release managers operate and collaborate on their next feature, project, or release, all that from within a single platform.",
   "main": "main.js",
   "scripts": {
@@ -73,11 +73,13 @@
     "electron-updater": "5.3.0",
     "fast-xml-parser": "^4.1.1",
     "faye": "^1.4.0",
+    "mime": "^3.0.0",
     "object-hash": "^3.0.0",
     "parse-diff": "^0.11.0",
     "piscina": "^3.2.0",
     "shelljs": "^0.8.5",
-    "yauzl": "^2.10.0"
+    "yauzl": "^2.10.0",
+    "yazl": "^2.5.1"
   },
   "bugs": {
     "url": "https://github.com/godarapradeep/infinit/issues"
