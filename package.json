@@ -1,6 +1,6 @@
 {
   "name": "infinit",
-  "version": "1.0.54",
+  "version": "1.0.55",
   "description": "A cross-platform application for Salesforce developers, analysts, and release managers operate and collaborate on their next feature, project, or release, all that from within a single platform.",
   "main": "main.js",
   "scripts": {
@@ -74,7 +74,7 @@
     "fast-xml-parser": "^4.1.1",
     "faye": "^1.4.0",
     "glob": "^9.3.2",
-    "mime": "^3.0.0",
+    "mime-types": "^2.1.35",
     "object-hash": "^3.0.0",
     "parse-diff": "^0.11.0",
     "piscina": "^3.2.0",
