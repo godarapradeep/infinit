@@ -1,6 +1,6 @@
 {
   "name": "infinit",
-  "version": "1.0.63",
+  "version": "1.0.64",
   "description": "A cross-platform application for Salesforce developers, analysts, and release managers operate and collaborate on their next feature, project, or release, all that from within a single platform.",
   "main": "main.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "Comparison",
     "Retrieval"
   ],
-  "author": "Pradeep Godara",
+  "author": "infinit",
   "license": "CC-BY-4.0",
   "devDependencies": {
     "@electron/notarize": "^1.2.3",
