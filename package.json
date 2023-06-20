@@ -1,6 +1,6 @@
 {
   "name": "infinit",
-  "version": "1.0.65",
+  "version": "1.0.66",
   "description": "A cross-platform application for Salesforce developers, analysts, and release managers operate and collaborate on their next feature, project, or release, all that from within a single platform.",
   "main": "main.js",
   "scripts": {
@@ -25,7 +25,7 @@
   "devDependencies": {
     "@electron/notarize": "^1.2.3",
     "electron": "^23.0.0",
-    "electron-builder": "^23.6.0"
+    "electron-builder": "^24.4.0"
   },
   "build": {
     "appId": "com.daas.infinit",
