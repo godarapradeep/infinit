@@ -1,6 +1,6 @@
 {
   "name": "infinit",
-  "version": "1.0.68",
+  "version": "1.0.69",
   "description": "A cross-platform application for Salesforce developers, analysts, and release managers operate and collaborate on their next feature, project, or release, all that from within a single platform.",
   "main": "main.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "win": "electron-builder --win",
     "mac": "electron-builder --mac",
     "release": "electron-builder --mac --win --publish always",
-    "debug": "node --nolazy --inspect-brk=5858 main.js"
+    "snyk": "snyk test --json > vulnerabilities.json && snyk-to-html -i vulnerabilities.json -o vulnerabilities.html"
   },
   "keywords": [
     "Force.com",
@@ -24,7 +24,7 @@
   "license": "CC-BY-4.0",
   "devDependencies": {
     "@electron/notarize": "^1.2.3",
-    "electron": "^23.0.0",
+    "electron": "latest",
     "electron-builder": "^24.4.0"
   },
   "build": {
